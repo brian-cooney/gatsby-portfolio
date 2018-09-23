@@ -49,14 +49,8 @@ const NavLinks = styled(Link)`
   letter-spacing: 0.5px;
 `
 
-const Layout = styled.div`
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-`
 
 const NavBar = () => (
-  <Layout>
     <Wrapper>
       <Container>
         <NavFlex>
@@ -69,7 +63,6 @@ const NavBar = () => (
         </NavFlex>
       </Container>
     </Wrapper>
-  </Layout>
 )
 
 export default NavBar

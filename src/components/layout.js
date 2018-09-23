@@ -5,13 +5,27 @@ import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 
 import './layout.css'
-import Footer from './Footer';
-
+import Footer from './Footer'
+import NavBar from './NavBar'
 
 const LayoutWrapper = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+`
+
+const LayoutContent = styled.div`
+  flex: 1 0 auto;
+  padding-bottom: 3.75rem;
+  box-sizing: border-box;
+`
+
+const LayoutContentContainer = styled.div`
+  max-width: 80rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 `
 
 const Layout = ({ children }) => (
@@ -36,10 +50,13 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <LayoutWrapper >
-          {children}
-        </LayoutWrapper>
+        <LayoutWrapper>
+        <NavBar />
+          <LayoutContent>
+            <LayoutContentContainer>{children}</LayoutContentContainer>
+          </LayoutContent>
           <Footer />
+        </LayoutWrapper>
       </>
     )}
   />

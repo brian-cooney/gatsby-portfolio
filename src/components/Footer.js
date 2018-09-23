@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import "../styles/footer.css"
 
 
 const FooterStyled = styled.div`
@@ -26,33 +27,31 @@ const FooterFlex = styled.div`
 const Copyright = styled.span`
     display: flex;
     align-items: center;
-`
+`;
 
 const FooterLinks = styled.div`
     display: flex;
     flex-wrap: wrap;
-`
+`;
 
 const Email = styled.span`
     display: flex;
     flex-wrap: wrap;
-`
+`;
 
 const FooterIcons = styled.div`
     display: flex;
-`
+`;
 
-const StyledLinks = styled(Link)`
+const StyledLinks = styled.a`
     display: flex;
-    background: url("../content/github.svg")
-`
+    background: url("../../content/github.svg")
+`;
 
-const StyledLinkedin = styled(Link)`
+const StyledLinkedin = styled.a`
     display: flex;
-    background: url("../content/linkedin.svg")
-
-`
-
+    background: url("../../content/linkedin.svg")
+`;
 
 
 const Footer = () => (
@@ -63,13 +62,11 @@ const Footer = () => (
                 <FooterLinks>
                     <Email>Design+Code by brian@briancooney.co.uk</Email>
                     <FooterIcons>
-                        <StyledLinks href="https://github.com/brian-cooney"></StyledLinks>
-                        <StyledLinkedin href="https://linkedin.com/in/bcooney88"></StyledLinkedin>
+                    <a className="github-icon" href=""></a>
                     </FooterIcons>
                 </FooterLinks>
           </FooterFlex>
       </FooterContainer>
-
   </FooterStyled>
 )
 
