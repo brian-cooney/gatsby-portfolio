@@ -306,7 +306,7 @@ ul {
 h1 {
   font-weight: 600;
   font-size: 3rem;
-  margin-top: 3.75rem;
+  margin-top: 1.75rem;
   margin-bottom: 3.75rem
 }
 
@@ -407,8 +407,8 @@ textarea {
 .row>[class*=" col-"],
 .row>[class^=col-] {
   box-sizing: border-box;
-  padding-left: .625rem;
-  padding-right: .625rem;
+  padding-left: 1.625rem;
+  padding-right: 1.625rem;
   -webkit-flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -1238,13 +1238,7 @@ textarea {
   background-color: #7de0e6
 }
 
-.footer .footer-link-github {
-  background: url(/b52bd9b219b95ff82fdcffb8b90a4af03d5c5cfe/84abf/github.b8a74eb3c221c6cb9c794fc84e2c7a48.svg)
-}
 
-.footer .footer-link-linkedin {
-  background: url(/aa52c5462c07ae1a3132a5dbb955d9f3323689e4/a4b6f/linkedin.f9c99abdd27c2177950c8d4a0367745f.svg)
-}
 
 .sr-only {
   position: absolute;
@@ -1295,4 +1289,11 @@ textarea {
 
 .text-width-500 {
   max-width: 31.25rem
+}
+
+
+/* Convert to styled components */
+
+.portfolio-hero .avatar-home {
+  margin-top: 30px;
 }
