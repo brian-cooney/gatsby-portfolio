@@ -4,9 +4,8 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 
-import Header from './header'
 import './layout.css'
-import NavBar from './NavBar';
+import Footer from './Footer';
 
 
 const LayoutWrapper = styled.div`
@@ -40,6 +39,7 @@ const Layout = ({ children }) => (
         <LayoutWrapper >
           {children}
         </LayoutWrapper>
+          <Footer />
       </>
     )}
   />
