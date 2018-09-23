@@ -62,9 +62,9 @@ const NavBar = () => (
         <NavFlex>
           <Name>Brian Cooney</Name>
           <NavWrapper>
-          <Link to="/portfolio/">Portfolio</Link>
-          <Link to="/about/">About</Link>
-          <Link to="/contact/">Contact</Link>
+          <NavLinks to="/portfolio/">Portfolio</NavLinks>
+          <NavLinks to="/about/">About</NavLinks>
+          <NavLinks to="/contact/">Contact</NavLinks>
           </NavWrapper>
         </NavFlex>
       </Container>
