@@ -2,10 +2,19 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import styled from 'styled-components' 
+import House from '../content/house.jpg'
+
+const HouseImage = styled.img`
+  width: 900px;
+  display: block;
+  margin-top: 60px;
+`
 
 const Contact = () => (
   <Layout>
-    <h1>Contact Me</h1>
+
+    <HouseImage src={House}/>
   </Layout>
 )
 
