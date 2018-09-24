@@ -9,7 +9,6 @@ const DogImage = styled.img`
   display: block;
 `
 
-
 const About = () => (
   <Layout>
     <h1>About me</h1>
