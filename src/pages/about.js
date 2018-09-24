@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const About = () => (
   <Layout>
     <h1>About me</h1>
-    <p>Bikes, cars, music</p>
+    <p></p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
