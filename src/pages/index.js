@@ -7,14 +7,14 @@ import Project1 from '../content/react-search.png'
 import Project2 from '../content/ec-1-gallery.png'
 import Project3 from '../content/omnifood1.png'
 import Project4 from '../content/pinata.png'
-import Avatar from '../content/brian-avatar.png'
+import Avatar from '../content/fishing.png'
 import Card from '../components/Card'
 
 const IndexPage = () => (
   <Layout>
     <div className="portfolio">
       <div className="portfolio-hero">
-        <img className="avatar-home" src={Avatar} alt="" />
+        <img className="avatar-home" src={Avatar} style={{width: 300}} alt="" />
         <h1 className="portfolio-hero-copy">
           Howdy, I'm currently building this site with Gatsby JS
         </h1>
