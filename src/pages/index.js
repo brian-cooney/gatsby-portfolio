@@ -16,12 +16,12 @@ const IndexPage = () => (
       <div className="portfolio-hero">
         <img className="avatar-home" src={Avatar} alt="" />
         <h1 className="portfolio-hero-copy">
-          Howdy, I'm currently building this site in Gatsby JS
+          Howdy, I'm currently building this site with Gatsby JS
         </h1>
-        <p className="mb-60">
+        <h3 className="mb-60" style={{fontWeight: 500}}>
           Full stack JavaScript developer currently <br />
           obsessed with React, GraphQl & GatsbyJS
-        </p>
+        </h3>
       </div>
       <div className="row row-center">
         <Card
@@ -30,6 +30,7 @@ const IndexPage = () => (
           content="SAAS Brand management platform"
           Link1="https://www.brandworkz.com/"
           Link1Titile="GitHub"
+          Technology="#React #Jest #Bootstrap #Java API"
         />
         <Card
           image={Project2}
@@ -37,22 +38,26 @@ const IndexPage = () => (
           content="Contemporary gallery concept"
           Link1="https://brian-cooney.github.io/EC1/"
           Link1Titile="GitHub"
+          Technology="#HTML5 #Bulma #jQuery"
         />
+        <Card
+          image={Project4}
+          heading="Pinata"
+          content="Collection of news API widgets"
+          Link1="https://pinata-api-feed.herokuapp.com/"
+          Link1Titile="GitHub"
+          Technology="#AngularJS #Node #Express #Tachyons CSS"
+        />
+
         <Card
           image={Project3}
           heading="Omnifood"
           content="Restaraunt marketing site"
           Link1="https://brian-cooney.github.io/omnifood-website"
           Link1Titile="GitHub"
+          Technology="#HTML5 #CSS"
         />
 
-        <Card
-          image={Project4}
-          heading="Pinata"
-          content="Collection of news API widgets in your feed"
-          Link1="https://pinata-api-feed.herokuapp.com/"
-          Link1Titile="GitHub"
-        />
       </div>
     </div>
   </Layout>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Brian Cooney',
   },
   plugins: [
     'gatsby-plugin-styled-components',

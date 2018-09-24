@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Brian Cooney",
+  "description": "Brian Cooney",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
@@ -12,6 +12,7 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
+    "simple-icons": "^1.9.1",
     "styled-components": "^3.4.9"
   },
   "keywords": [

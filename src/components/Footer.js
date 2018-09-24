@@ -60,7 +60,7 @@ const Footer = () => (
           <FooterFlex>
              <Copyright>Copyright © 2018 Brian Cooney</Copyright>
                 <FooterLinks>
-                    <Email>Design+Code by brian@briancooney.co.uk</Email>
+                    <Email>Design + Code by brian@briancooney.co.uk</Email>
                     <FooterIcons>
                     <a className="github-icon" href=""></a>
                     </FooterIcons>
