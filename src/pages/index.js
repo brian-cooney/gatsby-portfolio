@@ -21,16 +21,16 @@ const IndexPage = () => (
           </h1>     
           <p className="mb-60">
             Full stack JavaScript developer currently <br />
-            obsessed with React, GraphQL, GatsbyJS
+            obsessed with React, GraphQL & GatsbyJS
           </p>
         
         </div>        
           <div className="row row-center">
            <Card 
               image={Project1} 
-              heading="Brandworz"
+              heading="Brandworkz"
               content="Brand management platform"
-              Link1=""
+              Link1="https://www.brandworkz.com/"
               Link1Titile="GitHub"
            />
            <Card 
@@ -44,7 +44,7 @@ const IndexPage = () => (
               image={Project3} 
               heading="Omnifood"
               content="Restaraunt marketing site"
-              Link1="www.omnifood.com"
+              Link1="https://brian-cooney.github.io/omnifood-website"
               Link1Titile="GitHub"
            />
            
@@ -52,7 +52,7 @@ const IndexPage = () => (
               image={Project4} 
               heading="Pinata"
               content="Collection of news API widgets in your feed"
-              Link1=""
+              Link1="https://pinata-api-feed.herokuapp.com/"
               Link1Titile="GitHub"
            />
             
