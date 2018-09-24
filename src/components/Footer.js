@@ -7,7 +7,7 @@ import "../styles/footer.css"
 const FooterStyled = styled.div`
     padding: .5rem 0;
     background-color: #fff;
-    font-size: .75rem;
+    font-size: 1rem;
 `
 
 const FooterContainer = styled.div`
