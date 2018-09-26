@@ -16,7 +16,7 @@ const IndexPage = () => (
       <div className="portfolio-hero">
         <img className="avatar-home" src={Avatar} style={{width: 300}} alt="" />
         <h1 className="portfolio-hero-copy">
-          Howdy, I'm currently building this site with Gatsby JS
+          Howdy, I'm busy building this site with Gatsby JS
         </h1>
         <h3 className="mb-60" style={{fontWeight: 500}}>
           Full stack JavaScript developer currently <br />
@@ -30,7 +30,7 @@ const IndexPage = () => (
           content="SAAS Brand management platform"
           Link1="https://www.brandworkz.com/"
           Link1Titile="GitHub"
-          Technology="#React #Jest #Bootstrap #Java API"
+          Technology="#React #ES6 #Jest #Bootstrap"
         />
         <Card
           image={Project2}
@@ -57,7 +57,6 @@ const IndexPage = () => (
           Link1Titile="GitHub"
           Technology="#HTML5 #CSS"
         />
-
       </div>
     </div>
   </Layout>
