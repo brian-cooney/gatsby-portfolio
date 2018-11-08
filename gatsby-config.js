@@ -5,6 +5,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
+    'gatsby-transformer-remark',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -18,15 +19,18 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: ['gatsby-remark-embed-spotify'],
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-108460263-1",
-        head: true,       
+        trackingId: 'UA-108460263-1',
+        head: true,
       },
     },
     'gatsby-plugin-offline',
   ],
 }
-
-
-
