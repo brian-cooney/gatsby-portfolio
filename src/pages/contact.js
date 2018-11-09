@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import styled from 'styled-components'
 import House from '../content/house.jpg'
 import Icon from 'react-simple-icons'
-import { Flex, Box, Text, Card, Heading, Link } from 'rebass'
+import { Flex, Box, Text, Card, Heading } from 'rebass'
 
 const HouseImage = styled.img`
   margin-top: 60px;
