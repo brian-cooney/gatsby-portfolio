@@ -15,8 +15,10 @@ const About = () => (
   <Layout>
     <Flex flexWrap="wrap">
       <Box mx="auto" pt={4} width={[1, 1 / 2, 1 / 2]}>
-        <h3>About</h3>
-        <Text p={2} pl={0} pr={3}>
+        <Text p={2} pl={0} pr={3} fontWeight="bold" fontSize={[3, 3, 4]}>
+          About
+        </Text>
+        <Text p={2} pl={0} pr={3} fontSize={[3, 3, 4]}>
           "Digital fabrication tools and the maker movement were my gateway
           drugs into web development. Coming from a background in furniture and
           product design, I've swapped my chisel for a text editor! <br /> To
@@ -30,7 +32,7 @@ const About = () => (
           <a href="http://www.brandworkz.com/">company</a>
           &nbsp; building on my skill as developer. <br />
         </Text>
-        <Text p={2}>
+        <Text p={2} pl={0} pr={3} fontSize={[3, 3, 4]}>
           Right now, I'm focused on learning JavaScript deeply alongside React,
           GraphQl & Node". <br />
           Apart from my love of startups and development, I also enjoy music,
@@ -42,7 +44,7 @@ const About = () => (
           <iframe
             src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1E9EWmlVXojTmU"
             width="600"
-            height="400"
+            height="630"
             frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
