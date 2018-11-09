@@ -53,20 +53,20 @@ const NavLinks = styled(Link)`
   }
 `
 
-
 const NavBar = () => (
-    <Wrapper>
-      <Container>
-        <NavFlex>
-          <Name>Brian Cooney</Name>
-          <NavWrapper>
-          <NavLinks to="/">Portfolio</NavLinks>
+  <Wrapper>
+    <Container>
+      <NavFlex>
+        <NavLinks to="/">
+          <Name>BC</Name>
+        </NavLinks>
+        <NavWrapper>
           <NavLinks to="/about/">About</NavLinks>
           <NavLinks to="/contact/">Contact</NavLinks>
-          </NavWrapper>
-        </NavFlex>
-      </Container>
-    </Wrapper>
+        </NavWrapper>
+      </NavFlex>
+    </Container>
+  </Wrapper>
 )
 
 export default NavBar
