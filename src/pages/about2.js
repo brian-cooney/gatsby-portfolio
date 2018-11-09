@@ -14,7 +14,7 @@ const DogImage = styled.img`
 const About = () => (
   <Flex flexWrap="wrap">
     <Box px={0} py={0} width={[1, 1 / 2]}>
-      <form name="contact" method="POST" netlify>
+      <form name="contact" method="POST" action="/no-cache=1" netlify>
         <p>
           <label>
             Your Name: <input type="text" name="name" />
