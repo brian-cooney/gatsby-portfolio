@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import styled from 'styled-components'
 import House from '../content/house.jpg'
 import Icon from 'react-simple-icons'
+import { Flex, Box, Text, Card, Heading, Link } from 'rebass'
 
 const HouseImage = styled.img`
   margin-top: 60px;
@@ -33,9 +34,9 @@ const linkStyle = {
 
 const Contact = () => (
   <Layout>
-    <SocialWrapper>
-      <StyledUl>
-        <StyledLi>
+    <Flex pt={4} pb={4} flexWrap="wrap">
+      <Box mx="auto" px={0} py={0} width={[1, 1 / 4, 1 / 6, 1 / 6]}>
+        <Text p={1} color="black">
           <Icon name="linkedin" />
           <a
             style={linkStyle}
@@ -44,8 +45,10 @@ const Contact = () => (
           >
             LinkedIn
           </a>
-        </StyledLi>
-        <StyledLi>
+        </Text>
+      </Box>
+      <Box mx="auto" px={0} py={0} width={[1, 1 / 4, 1 / 6, 1 / 6]}>
+        <Text p={1} color="black">
           <Icon name="github" />
           <a
             style={linkStyle}
@@ -54,8 +57,10 @@ const Contact = () => (
           >
             Github
           </a>
-        </StyledLi>
-        <StyledLi>
+        </Text>
+      </Box>
+      <Box mx="auto" px={0} py={0} width={[1, 1 / 4, 1 / 6, 1 / 6]}>
+        <Text p={1} color="black">
           <Icon name="twitter" />
           <a
             style={linkStyle}
@@ -64,8 +69,10 @@ const Contact = () => (
           >
             Twitter
           </a>
-        </StyledLi>
-        <StyledLi>
+        </Text>
+      </Box>
+      <Box mx="auto" px={0} py={0} width={[1, 1 / 4, 1 / 6, 1 / 6]}>
+        <Text p={1} color="black">
           <Icon name="behance" />
           <a
             style={linkStyle}
@@ -74,10 +81,23 @@ const Contact = () => (
           >
             Behance
           </a>
-        </StyledLi>
-      </StyledUl>
-    </SocialWrapper>
-    <HouseImage src={House} />
+        </Text>
+      </Box>
+    </Flex>
+
+    <Card
+      p={4}
+      py={7}
+      backgroundImage={`url(${House})`}
+      backgroundSize="cover"
+      borderRadius={8}
+      color="white"
+      bg="darkgray"
+    >
+      <Heading textAlign="center" fontSize={[5, 6]}>
+        Contact Me
+      </Heading>
+    </Card>
   </Layout>
 )
 
