@@ -1,4 +1,39 @@
 .github-icon {
-    display: flex;
-    background: url("../content/github.svg");
+  display: flex;
+  background: url('../content/github.svg');
+}
+
+.big-wave {
+  overflow: hidden;
+  padding: 32px 0;
+}
+
+__3c1b3 {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.__7ee4c {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 32px 32px;
+}
+.big-wave .col {
+  position: relative;
+  height: 48px;
+}
+
+.big-wave.left .col .wave-break {
+  right: auto;
+  left: 100%;
+}
+
+.big-wave svg {
+  width: 2000px;
+  stroke: #fff200;
+  stroke-width: 8px;
+  stroke-linecap: round;
+  fill: none;
+  height: 64px;
 }

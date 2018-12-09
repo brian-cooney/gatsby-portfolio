@@ -5,6 +5,8 @@ import Layout from '../components/layout'
 import Dog from '../content/dog.jpg'
 import { Flex, Box, Text } from 'rebass'
 
+import '../styles/footer.css'
+
 const DogImage = styled.img`
   margin-top: 60px;
   width: 50%;
