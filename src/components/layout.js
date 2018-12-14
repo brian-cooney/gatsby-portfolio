@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
+import { rhythm, scale } from '../utils/typography'
 
 import './layout.css'
 import Footer from './Footer'
@@ -51,7 +52,7 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <LayoutWrapper>
-        <NavBar />
+          <NavBar />
           <LayoutContent>
             <LayoutContentContainer>{children}</LayoutContentContainer>
           </LayoutContent>

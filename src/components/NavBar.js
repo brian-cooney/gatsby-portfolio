@@ -61,8 +61,9 @@ const NavBar = () => (
           <Name>BC</Name>
         </NavLinks>
         <NavWrapper>
-          <NavLinks to="/about/">About</NavLinks>
-          <NavLinks to="/contact/">Contact</NavLinks>
+          <NavLinks to="/about">About</NavLinks>
+          <NavLinks to="/blog">Blog</NavLinks>
+          <NavLinks to="/contact">Contact</NavLinks>
         </NavWrapper>
       </NavFlex>
     </Container>

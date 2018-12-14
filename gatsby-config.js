@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Brian Cooney',
+    title: 'Gatsby Starter Blog',
+    author: 'Brian Cooney',
+    description: 'A starter blog demonstrating what Gatsby can do.',
+    siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
   },
   plugins: [
     'gatsby-plugin-styled-components',
@@ -78,7 +81,6 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/gatsby-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
