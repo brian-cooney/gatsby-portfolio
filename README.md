@@ -33,6 +33,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 3.  **Start developing.**
 
+
     Navigate into your new site’s directory and start it up.
 
     ```sh
