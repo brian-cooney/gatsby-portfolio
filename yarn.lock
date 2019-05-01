@@ -702,14 +702,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.0.0.tgz#adeb78fedfc855aa05bc041640f3f6f98e85424c"
-  integrity sha512-7hGhzlcmg01CvH1EHdSPVXYX1aJ8KCEyz6I9xYIi/asDtzBPMyMhVibhM/K6g/5qnKBwjZtp10bNZIEFTRW1MA==
-  dependencies:
-    regenerator-runtime "^0.12.0"
-
-"@babel/runtime@^7.1.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2":
   version "7.1.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.1.5.tgz#4170907641cf1f61508f563ece3725150cc6fe39"
   integrity sha512-xKnPpXG/pvK1B90JkwwxSGii90rQGKtzcMt2gI5G6+M0REXaq6rOHsGC2ay6/d0Uje7zzvSzjEzfR3ENhFlrfA==
@@ -4632,9 +4625,9 @@ gatsby-link@^2.0.5:
     prop-types "^15.6.1"
 
 gatsby-plugin-google-analytics@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.6.tgz#b6bc37ce357125ae9969ee38edf8fd031c57723c"
-  integrity sha512-o39E8myn9r1fwJOJMO4HxyoreVhm2wQNwkqugDRsvzHb+FFOLldQP9ZSUT/88OEnAr1jlQ+RajGrmhDv4ePIEQ==
+  version "2.0.19"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.19.tgz#02430313336aa65712bad75600e45a7b510bbd40"
+  integrity sha512-Db1nOpzS1Nq52E0tFfgF2uCPCnWEtJbUMKLX1RU5Hfki8BoPHpZUHrcd5NtT3KQuVa7Ekps+3uJVziK+Yj5n+A==
   dependencies:
     "@babel/runtime" "^7.0.0"
 
