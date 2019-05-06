@@ -9337,9 +9337,9 @@ simple-get@^2.7.0, simple-get@^2.8.1:
     simple-concat "^1.0.0"
 
 simple-icons@^1.9.1:
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-1.9.9.tgz#a193d3d0f5fcdbf722cb7543563871100a96b901"
-  integrity sha512-EJPEBJCCQ2cKcdOGx8qRJD827rAnH6/+h3oEHaPeb8Pqqql9PA9iM4DAsRfE8rm0r3IPAAy0bVWbOccrQLBseQ==
+  version "1.9.26"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-1.9.26.tgz#b48b8e95177e709d75e3ef67f62c84438243a152"
+  integrity sha512-qvZC5wFDsfcTkjnbqzMD5UofXpKBbtQHpZbChoty/x2PULx/W/sQ1lHWJZPsRUKmx4rGCjzghd0l7zoTNtthYA==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
