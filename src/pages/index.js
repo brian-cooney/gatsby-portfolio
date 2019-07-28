@@ -6,6 +6,8 @@ import Project1 from '../content/react-search.png'
 import Project2 from '../content/ec-1-gallery.png'
 import Project3 from '../content/omnifood1.png'
 import Project4 from '../content/pinata.png'
+import Project5 from '../content/mason-fifth.png'
+import Project6 from '../content/andco.png'
 import Avatar from '../content/fishing.png'
 import Card from '../components/Card'
 import { Flex, Box, Text } from 'rebass'
@@ -48,6 +50,20 @@ const IndexPage = () => (
         </TitleWrapper>
       </div>
       <div className="row row-center">
+        {/* <Card
+          image={Project6}
+          heading="AndCo"
+          content="Co - working"
+          Link1="https://www.andco.life/"
+          Technology="#React #Node #ExpressJS #Mongoose"
+        />
+        <Card
+          image={Project5}
+          heading="Mason & Fifth"
+          content="Co - Living"
+          Link1="https://masonfifth.dev.crowdform.co.uk/"
+          Technology="#React #ES6 #Jest #Styled System #Prisma #Apollo"
+        /> */}
         <Card
           image={Project1}
           heading="Brandworkz"
