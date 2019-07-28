@@ -1,5 +1,5 @@
 import React from 'react'
-
+import styled from 'styled-components'
 import Layout from '../components/layout'
 import '../styles/fonts.css'
 import Project1 from '../content/react-search.png'
@@ -15,6 +15,14 @@ const linkStyle = {
   marginLeft: 20,
 }
 
+const TitleWrapper = styled.div`
+  max-width: 800px;
+  margin: 0 auto;
+  & a {
+    text-decoration: none;
+  }
+`
+
 const IndexPage = () => (
   <Layout>
     <div className="portfolio">
@@ -25,13 +33,19 @@ const IndexPage = () => (
           style={{ width: 300 }}
           alt=""
         />
-        <h1 className="portfolio-hero-copy">
-          Howdy, I'm busy building this site with Gatsby JS
-        </h1>
-        <h3 className="mb-60" style={{ fontWeight: 500 }}>
-          Full stack JavaScript developer currently <br />
-          obsessed with React, GraphQl & GatsbyJS
-        </h3>
+        <TitleWrapper>
+          <h1 className="portfolio-hero-copy">
+            Hello 👋 , I'm a fullstack developer at{' '}
+            <a href="https://www.crowdform.co.uk/" target="blank">
+              CrowdForm
+            </a>{' '}
+            An award winning digital product studio
+          </h1>
+          <h3 className="mb-60" style={{ fontWeight: 500 }}>
+            Currenty enjoying JavaScript frameworks & tooling.
+            <br /> React, Prisma, Apollo, GraphQl, NextJS & GatsbyJS
+          </h3>
+        </TitleWrapper>
       </div>
       <div className="row row-center">
         <Card
