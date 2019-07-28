@@ -47,10 +47,6 @@ const NavLinks = styled(Link)`
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  :hover {
-    color: #fff;
-    background-color: #13c7d2;
-  }
 `
 
 const NavBar = () => (
