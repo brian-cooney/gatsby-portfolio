@@ -18,7 +18,7 @@
     "react-helmet": "^5.2.0",
     "react-simple-icons": "^1.0.0-beta.5",
     "rebass": "^3.0.0-9",
-    "simple-icons": "^1.9.1",
+    "simple-icons": "^2.1.0",
     "styled-components": "^3.4.9"
   },
   "keywords": [
