@@ -6,8 +6,7 @@ import Project1 from '../content/react-search.png'
 import Project2 from '../content/ec-1-gallery.png'
 import Project3 from '../content/omnifood1.png'
 import Project4 from '../content/pinata.png'
-import Project5 from '../content/mason-fifth.png'
-import Project6 from '../content/andco.png'
+import catchOfTheDay from '../content/catch-of-the-day.png'
 import Avatar from '../content/fishing.png'
 import Card from '../components/Card'
 import { Flex, Box, Text } from 'rebass'
@@ -44,26 +43,18 @@ const IndexPage = () => (
             An award winning digital product studio
           </h1>
           <h3 className="mb-60" style={{ fontWeight: 500 }}>
-            Currenty enjoying JavaScript frameworks & tooling.
-            <br /> React, Prisma, Apollo, GraphQl, NextJS & GatsbyJS
+            Here are a few projects I have worked on
           </h3>
         </TitleWrapper>
       </div>
       <div className="row row-center">
-        {/* <Card
-          image={Project6}
-          heading="AndCo"
-          content="Co - working"
-          Link1="https://www.andco.life/"
-          Technology="#React #Node #ExpressJS #Mongoose"
-        />
         <Card
-          image={Project5}
-          heading="Mason & Fifth"
-          content="Co - Living"
-          Link1="https://masonfifth.dev.crowdform.co.uk/"
-          Technology="#React #ES6 #Jest #Styled System #Prisma #Apollo"
-        /> */}
+          image={catchOfTheDay}
+          heading="Catch of the day"
+          content="Wes Bos React course"
+          Link1="https://react-with-twitter-auth.netlify.com/"
+          Technology="#React #Firebase db #twitter auth"
+        />
         <Card
           image={Project1}
           heading="Brandworkz"
@@ -91,6 +82,14 @@ const IndexPage = () => (
 
         <Card
           image={Project3}
+          heading="Omnifood"
+          content="Restaraunt marketing site"
+          Link1="https://brian-cooney.github.io/omnifood-website"
+          Link1Titile="GitHub"
+          Technology="#HTML5 #CSS"
+        />
+        <Card
+          image=""
           heading="Omnifood"
           content="Restaraunt marketing site"
           Link1="https://brian-cooney.github.io/omnifood-website"
