@@ -9,7 +9,7 @@ import Project4 from '../content/pinata.png'
 import catchOfTheDay from '../content/catch-of-the-day.png'
 import Avatar from '../content/fishing.png'
 import Card from '../components/Card'
-import { Flex, Box, Text } from 'rebass'
+
 import Icon from 'react-simple-icons'
 
 const linkStyle = {
@@ -98,56 +98,6 @@ const IndexPage = () => (
         /> */}
       </div>
     </div>
-    <Flex pt={4} pb={4} flexWrap="wrap">
-      <Box mx="auto" px={0} py={0} width={[1, 1 / 4, 1 / 6, 1 / 6]}>
-        <Text p={1} color="black">
-          <Icon name="linkedin" />
-          <a
-            style={linkStyle}
-            target="_blank"
-            href="https://www.linkedin.com/in/bcooney88"
-          >
-            LinkedIn
-          </a>
-        </Text>
-      </Box>
-      <Box mx="auto" px={0} py={0} width={[1, 1 / 4, 1 / 6, 1 / 6]}>
-        <Text p={1} color="black">
-          <Icon name="github" />
-          <a
-            style={linkStyle}
-            target="_blank"
-            href="https://github.com/brian-cooney"
-          >
-            Github
-          </a>
-        </Text>
-      </Box>
-      <Box mx="auto" px={0} py={0} width={[1, 1 / 4, 1 / 6, 1 / 6]}>
-        <Text p={1} color="black">
-          <Icon name="twitter" />
-          <a
-            style={linkStyle}
-            target="_blank"
-            href="https://twitter.com/@bcooneydub"
-          >
-            Twitter
-          </a>
-        </Text>
-      </Box>
-      <Box mx="auto" px={0} py={0} width={[1, 1 / 4, 1 / 6, 1 / 6]}>
-        <Text p={1} color="black">
-          <Icon name="behance" />
-          <a
-            style={linkStyle}
-            target="_blank"
-            href="https://www.behance.net/briancooney"
-          >
-            Behance
-          </a>
-        </Text>
-      </Box>
-    </Flex>
   </Layout>
 )
 
