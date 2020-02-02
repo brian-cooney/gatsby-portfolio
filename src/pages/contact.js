@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import styled from 'styled-components'
 import House from '../content/house.jpg'
 import Icon from 'react-simple-icons'
-import { Flex, Box, Text, Card, Heading } from 'rebass'
+import { Flex, Box, Text, Card, Image, Link } from 'rebass/styled-components'
 
 const HouseImage = styled.img`
   margin-top: 60px;
@@ -26,6 +26,13 @@ const StyledUl = styled.ul`
 
 const StyledLi = styled.li`
   text-decoration: none;
+`
+
+const H3 = styled.h3`
+  font-family: 'Montserrat';
+  fontsize: 2rem;
+  text-align: center;
+  margin-top: 2rem;
 `
 
 const linkStyle = {
@@ -85,19 +92,14 @@ const Contact = () => (
       </Box>
     </Flex>
 
-    <Card
-      p={4}
-      py={7}
-      backgroundImage={`url(${House})`}
-      backgroundSize="cover"
-      borderRadius={8}
-      color="white"
-      bg="darkgray"
-    >
-      <Heading textAlign="center" fontSize={[5, 6]}>
-        Contact Me
-      </Heading>
-    </Card>
+    <Flex>
+      <Card width={[1]} mx="auto">
+        <Image src={`${House}`} />
+        <Link href="https://www.youtube.com/watch?v=pkKuRW5pYVI">
+          <H3>The James Goldstein residence by John Lautner. </H3>
+        </Link>
+      </Card>
+    </Flex>
   </Layout>
 )
 

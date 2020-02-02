@@ -19,7 +19,7 @@ const FooterContainer = styled.div`
 
 const FooterFlex = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 `
 
@@ -33,36 +33,12 @@ const FooterLinks = styled.div`
   flex-wrap: wrap;
 `
 
-const Email = styled.span`
-  display: flex;
-  flex-wrap: wrap;
-`
-
-const FooterIcons = styled.div`
-  display: flex;
-`
-
-const StyledLinks = styled.a`
-  display: flex;
-  background: url('../../content/github.svg');
-`
-
-const StyledLinkedin = styled.a`
-  display: flex;
-  background: url('../../content/linkedin.svg');
-`
-
 const Footer = () => (
   <FooterStyled>
     <FooterContainer>
       <FooterFlex>
-        <Copyright>Copyright © 2019 Brian Cooney</Copyright>
-        <FooterLinks>
-          <Email>Design + Code by brian@briancooney.co.uk</Email>
-          <FooterIcons>
-            <a className="github-icon" href="" />
-          </FooterIcons>
-        </FooterLinks>
+        <Copyright>Copyright © 2020 Brian Cooney</Copyright>
+        <FooterLinks />
       </FooterFlex>
     </FooterContainer>
   </FooterStyled>
