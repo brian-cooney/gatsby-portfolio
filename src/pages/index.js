@@ -53,7 +53,7 @@ const IndexPage = () => (
           heading="Catch of the day"
           content="Wes Bos React course"
           Link1="https://react-with-twitter-auth.netlify.com/"
-          Technology="#React #Firebase db #twitter auth"
+          Technology="React + Firebase | twitter auth"
         />
         <Card
           image={Project1}
@@ -61,7 +61,7 @@ const IndexPage = () => (
           content="SAAS Brand management platform"
           Link1="https://www.brandworkz.com/"
           Link1Titile="GitHub"
-          Technology="#React #ES6 #Jest #Bootstrap"
+          Technology="React | ES6 | Jest | Bootstrap"
         />
         <Card
           image={Project2}
@@ -69,7 +69,7 @@ const IndexPage = () => (
           content="Contemporary gallery concept"
           Link1="https://brian-cooney.github.io/EC1/"
           Link1Titile="GitHub"
-          Technology="#HTML5 #Bulma #jQuery"
+          Technology="HTML5 | Bulma | jQuery"
         />
         <Card
           image={Project4}
@@ -77,25 +77,25 @@ const IndexPage = () => (
           content="Collection of news API widgets"
           Link1="https://pinata-api-feed.herokuapp.com/"
           Link1Titile="GitHub"
-          Technology="#AngularJS #Node #Express #Tachyons CSS"
+          Technology="AngularJS | NodeJS | Express | Tachyons CSS"
         />
 
-        <Card
+        {/* <Card
           image={Project3}
           heading="Omnifood"
           content="Restaraunt marketing site"
           Link1="https://brian-cooney.github.io/omnifood-website"
           Link1Titile="GitHub"
           Technology="#HTML5 #CSS"
-        />
-        <Card
+        /> */}
+        {/* <Card
           image=""
           heading="Omnifood"
           content="Restaraunt marketing site"
           Link1="https://brian-cooney.github.io/omnifood-website"
           Link1Titile="GitHub"
           Technology="#HTML5 #CSS"
-        />
+        /> */}
       </div>
     </div>
     <Flex pt={4} pb={4} flexWrap="wrap">
