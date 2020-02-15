@@ -1,30 +1,29 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import { Card, Image, Heading, Text, Flex, Box } from 'rebass/styled-components'
 
-const Card = props => (
-  <div className="col-auto">
-    <div className="portfolio-box mb-32">
-      <a
-        href={props.Link1}
-        className="portfolio-link-project1"
-      >
-        <img src={props.image} alt="project1" />
-      </a>
-      <h6> <a
-        href={props.Link1}
-        target=""
-        rel="noopener"
-        > {props.heading}</a>
-        </h6>
-      <p className="portfolio-project-desc">{props.content}</p>
-      <div>
-        <a className="portfolio-project-asset">
-          {props.Technology}
-        </a>
-      </div>
-    </div>
-  </div>
+const ProjectCard = ({ image, title, body, tech, url }) => (
+  <a href={url}>
+    <Card height="430px" textAlign="center">
+      <Box
+        sx={{
+          px: 2,
+          py: '6.2rem',
+          backgroundImage: `url(${image})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      ></Box>
+      <Box p={3}>
+        <Heading color="black">{title}</Heading>
+        <Text color="black" my={3}>
+          {body}
+        </Text>
+        <Text fontSize={1}>{tech}</Text>
+      </Box>
+    </Card>
+  </a>
 )
 
-export default Card
+export default ProjectCard

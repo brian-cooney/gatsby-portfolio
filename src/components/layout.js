@@ -2,7 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import styled from 'styled-components'
+import preset from '@rebass/preset'
+import styled, { ThemeProvider, createGlobalStyle } from 'styled-components'
+
 import Icon from 'react-simple-icons'
 import './layout.css'
 import Footer from './Footer'
@@ -55,12 +57,15 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <LayoutWrapper>
-          <NavBar />
-          <LayoutContent>
-            <LayoutContentContainer>{children}</LayoutContentContainer>
-          </LayoutContent>
-        </LayoutWrapper>
+        <ThemeProvider theme={preset}>
+          <LayoutWrapper>
+            <NavBar />
+            <LayoutContent>
+              <LayoutContentContainer>{children}</LayoutContentContainer>
+            </LayoutContent>
+          </LayoutWrapper>
+        </ThemeProvider>
+
         <Flex py={5} px={3} bg="#ececec" flexWrap="wrap">
           <Box mx="auto" px={0} py={0} width={[1 / 2, 1 / 4, 1 / 6, 1 / 6]}>
             <Text p={1} color="black">
