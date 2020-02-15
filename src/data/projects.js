@@ -38,18 +38,18 @@ const projects = [
     url: 'https://www.brandworkz.com/',
   },
   {
-    title: 'Propeller',
+    title: 'Propeller Group',
     image: `${propeller}`,
     body:
-      'Custom theme development with sage roots designed & built by CrowdForm',
+      'Custom theme development for a PR group with sage roots designed & built by CrowdForm',
     tech: 'JS | SCSS | BEM | PHP | jQuery',
     url: 'https://propellergroup.com/',
   },
   {
-    title: 'Stamford',
+    title: 'Stamford Associates',
     image: `${stamford}`,
     body:
-      'Custom theme development with sage roots designed & built by CrowdForm',
+      'Custom theme development for an investment consultancy with sage roots designed & built by CrowdForm',
     tech: 'JS | SCSS | BEM | PHP | jQuery',
     url: 'https://www.stamfordassociates.com/',
   },
