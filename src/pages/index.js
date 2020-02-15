@@ -1,20 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import Layout from '../components/layout'
+import { Flex, Box } from 'rebass/styled-components'
 import '../styles/fonts.css'
-import Project1 from '../content/react-search.png'
-import Project2 from '../content/ec-1-gallery.png'
-import Project3 from '../content/omnifood1.png'
-import Project4 from '../content/pinata.png'
-import catchOfTheDay from '../content/catch-of-the-day.png'
+
 import Avatar from '../content/fishing.png'
 import Card from '../components/Card'
-
-import Icon from 'react-simple-icons'
-
-const linkStyle = {
-  marginLeft: 20,
-}
+import ProjectCard from '../sections/projects'
+import projects from '../data/projects'
 
 const TitleWrapper = styled.div`
   max-width: 800px;
@@ -47,57 +40,24 @@ const IndexPage = () => (
           </h3>
         </TitleWrapper>
       </div>
-      <div className="row row-center">
-        <Card
-          image={catchOfTheDay}
-          heading="Catch of the day"
-          content="Wes Bos React course"
-          Link1="https://react-with-twitter-auth.netlify.com/"
-          Technology="React + Firebase | twitter auth"
-        />
-        <Card
-          image={Project1}
-          heading="Brandworkz"
-          content="SAAS Brand management platform"
-          Link1="https://www.brandworkz.com/"
-          Link1Titile="GitHub"
-          Technology="React | ES6 | Jest | Bootstrap"
-        />
-        <Card
-          image={Project2}
-          heading="EC-1 Gallery"
-          content="Contemporary gallery concept"
-          Link1="https://brian-cooney.github.io/EC1/"
-          Link1Titile="GitHub"
-          Technology="HTML5 | Bulma | jQuery"
-        />
-        <Card
-          image={Project4}
-          heading="Pinata"
-          content="Collection of news API widgets"
-          Link1="https://pinata-api-feed.herokuapp.com/"
-          Link1Titile="GitHub"
-          Technology="AngularJS | NodeJS | Express | Tachyons CSS"
-        />
 
-        {/* <Card
-          image={Project3}
-          heading="Omnifood"
-          content="Restaraunt marketing site"
-          Link1="https://brian-cooney.github.io/omnifood-website"
-          Link1Titile="GitHub"
-          Technology="#HTML5 #CSS"
-        /> */}
-        {/* <Card
-          image=""
-          heading="Omnifood"
-          content="Restaraunt marketing site"
-          Link1="https://brian-cooney.github.io/omnifood-website"
-          Link1Titile="GitHub"
-          Technology="#HTML5 #CSS"
-        /> */}
-      </div>
+      <Flex flexWrap="wrap" mx={-2}>
+        {projects.map(project => {
+          return (
+            <Box width={[1, 1 / 2, 1 / 2, 1 / 3]} px={3} mb={4}>
+              <Card
+                image={project.image}
+                title={project.title}
+                body={project.body}
+                tech={project.tech}
+                url={project.url}
+              />
+            </Box>
+          )
+        })}
+      </Flex>
     </div>
+    <ProjectCard />
   </Layout>
 )
 
