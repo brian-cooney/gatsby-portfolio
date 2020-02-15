@@ -5,7 +5,7 @@ import { Card, Image, Heading, Text, Flex, Box } from 'rebass/styled-components'
 
 const ProjectCard = ({ image, title, body, tech, url }) => (
   <a href={url}>
-    <Card height="430px" textAlign="center">
+    <Card height="420px" textAlign="center">
       <Box
         sx={{
           px: 2,
@@ -13,6 +13,9 @@ const ProjectCard = ({ image, title, body, tech, url }) => (
           backgroundImage: `url(${image})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          // ':hover': {
+          //   transform: 'scale(1.1)',
+          // },
         }}
       ></Box>
       <Box p={3}>
