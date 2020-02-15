@@ -5,18 +5,23 @@ import { Card, Image, Heading, Text, Flex, Box } from 'rebass/styled-components'
 
 const ProjectCard = ({ image, title, body, tech, url }) => (
   <a href={url}>
-    <Card>
+    <Card height="430px" textAlign="center">
       <Box
         sx={{
-          px: 4,
-          py: 6,
+          px: 2,
+          py: '6.2rem',
           backgroundImage: `url(${image})`,
           backgroundSize: 'cover',
+          backgroundPosition: 'center',
         }}
       ></Box>
-      <Heading mt={2}>{title}</Heading>
-      <Text my={3}>{body}</Text>
-      <Text>{tech}</Text>
+      <Box p={3}>
+        <Heading color="black">{title}</Heading>
+        <Text color="black" my={3}>
+          {body}
+        </Text>
+        <Text fontSize={1}>{tech}</Text>
+      </Box>
     </Card>
   </a>
 )

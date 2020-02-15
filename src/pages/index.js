@@ -36,7 +36,7 @@ const IndexPage = () => (
             An award winning digital product studio
           </h1>
           <h3 className="mb-60" style={{ fontWeight: 500 }}>
-            Here are a few projects I have worked on
+            Below are a few recent projects I have worked on
           </h3>
         </TitleWrapper>
       </div>
@@ -57,7 +57,6 @@ const IndexPage = () => (
         })}
       </Flex>
     </div>
-    <ProjectCard />
   </Layout>
 )
 
