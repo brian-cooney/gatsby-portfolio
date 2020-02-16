@@ -20,10 +20,12 @@ const ProjectCard = ({ image, title, body, tech, url }) => (
       ></Box>
       <Box p={3}>
         <Heading color="black">{title}</Heading>
-        <Text color="black" my={3}>
+        <Text color="black" my={3} fontWeight="300">
           {body}
         </Text>
-        <Text fontSize={1}>{tech}</Text>
+        <Text fontSize={1} fontWeight="300">
+          {tech}
+        </Text>
       </Box>
     </Card>
   </a>
