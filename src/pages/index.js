@@ -41,10 +41,10 @@ const IndexPage = () => (
         </TitleWrapper>
       </div>
 
-      <Flex flexWrap="wrap" mx={-2}>
+      <Flex flexWrap="wrap" mx={[-2, 2, 5]}>
         {projects.map(project => {
           return (
-            <Box width={[1, 1 / 2, 1 / 2, 1 / 3]} px={3} mb={4}>
+            <Box width={[1, 1 / 2, 1 / 2, 1 / 2]} px={3} mb={4}>
               <Card
                 image={project.image}
                 title={project.title}
