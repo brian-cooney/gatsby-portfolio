@@ -29,7 +29,7 @@ const IndexPage = () => (
         />
         <TitleWrapper>
           <h1 className="portfolio-hero-copy">
-            Hello 👋 , I'm a fullstack developer at{' '}
+            Hello 👋 , I'm a frontend developer at{' '}
             <a href="https://www.nutmeg.com/" target="blank">
               Nutmeg
             </a>{' '}
