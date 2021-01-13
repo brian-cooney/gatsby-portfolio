@@ -28,8 +28,8 @@ const About = () => (
             Software Engineering Immersive.
           </a>
           &nbsp;Since that incredible experience I have worked for a top&nbsp;
-          <a href="http://www.wcrs.com/">agency</a> and SAAS product&nbsp;
-          <a href="http://www.brandworkz.com/">company</a>
+          <a href="https://www.crowdform.co.uk/">product studio</a> and SAAS product&nbsp;
+          <a href="https://www.brandworkz.com/">company</a>
           &nbsp; building on my skill as developer. <br />
         </Text>
         <Text p={2} pl={2} pr={3} fontSize={[2, 3, 3]}>
