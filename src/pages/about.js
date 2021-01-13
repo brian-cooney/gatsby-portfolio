@@ -34,10 +34,10 @@ const About = () => (
         </Text>
         <Text p={2} pl={2} pr={3} fontSize={[2, 3, 3]}>
           Right now, I'm working with{' '}
-          <a href="https://www.crowdform.co.uk/" target="blank">
-            CrowdForm
+          <a href="https://www.nutmeg.com/" target="blank">
+            Nutmeg
           </a>{' '}
-          a digital product studio and am focused on learning JavaScript deeply
+          the largest digital wealth manager in the UK and am focused on learning JavaScript deeply
           alongside React, GraphQl & Node". <br />
           Apart from my love of startups and development, I also enjoy music,
           bikes, design + architecture
