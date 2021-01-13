@@ -33,7 +33,7 @@ const IndexPage = () => (
             <a href="https://www.nutmeg.com/" target="blank">
               Nutmeg
             </a>{' '}
-            An award winning digital product studio
+            The largest digital wealth manager in the UK
           </h1>
           <h3 className="mb-60" style={{ fontWeight: 500 }}>
             Below are a few recent projects I have worked on
