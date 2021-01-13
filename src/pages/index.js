@@ -30,8 +30,8 @@ const IndexPage = () => (
         <TitleWrapper>
           <h1 className="portfolio-hero-copy">
             Hello 👋 , I'm a fullstack developer at{' '}
-            <a href="https://www.crowdform.co.uk/" target="blank">
-              CrowdForm
+            <a href="https://www.nutmeg.com/" target="blank">
+              Nutmeg
             </a>{' '}
             An award winning digital product studio
           </h1>
